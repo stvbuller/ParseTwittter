@@ -30,8 +30,8 @@ function buildTweeters(tweeterData){
 
 
 
-for (var i = 0; i < window.users.length; i++) {
-    newColumn = buildTweeters(window.users[i]);
+for (var i = 0; i < window.tweets.length; i++) {
+    newColumn = buildTweeters(window.tweets[i]);
     $(".row").append(newColumn);
   }
 

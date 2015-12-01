@@ -1,4 +1,4 @@
-window.users = [
+window.tweets = [
   {
     "coordinates": null,
     "favorited": false,
